@@ -1,0 +1,29 @@
+
+
+public class PokemonGame {
+
+	public static void main(String[] args) {
+		  int PokemonCount=0;
+          int PikachuCount=0;
+
+	        String[] List = new  String[]  {"","Pikachu","Squirtle","","Venusaur"};
+	       
+	        for (int i=0; i<=(List.length-1); i++) {
+	       
+	            if (!List[i].equalsIgnoreCase("") ) {
+	             PokemonCount++;
+	            }
+	           if(List[i].equalsIgnoreCase("Pikachu")) {
+	            	
+	            PikachuCount++;
+	            	
+	            	}
+	            }	
+	            
+	        System.out.println("PokemonCount:"+PokemonCount);
+	        System.out.println("PikachuCount:"+PikachuCount);
+	      
+
+	}
+
+}
